@@ -1,0 +1,57 @@
+
+.navbar {
+  background-color: white;
+  padding: 20px;
+}
+  
+  
+.hero-text {
+    color: #f1f1f1; /* Light grey for better readability over colorful background */
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px; /* Add some padding for breathing room */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+  
+   
+  
+   
+/* Hero Image Styles */
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: lightcoral;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding-left: 2cm; /* Or use margin-left as needed */
+}
+  
+.hero-image {
+    background-image: url('/images/Welc.jpeg'); /* Assuming your image is in the 'images' folder */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+    width: 85vw; /* Set width to 100% viewport width */
+    background-size: cover; /* Resize image to cover the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Text color for contrast */
+}
+  
+  
+
+  /* Latest Articles Heading Styles */
+  
+.latest-articles-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    color: #333; /* Dark grey for better contrast */
+    border-bottom: 2px solid #ddd; /* Add a subtle border for separation */
+    padding-bottom: 10px; /* Add some padding below the border */
+}
+  
+
+  
